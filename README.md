@@ -31,7 +31,7 @@ conda create -n "pleio" python=3.7.4 pandas=1.2.3 numpy=1.19.5 scipy=1.7.3
 Once the above has completed, you can run the following command:
 
 ```
-./pleio,py -h
+./pleio.py -h
 ```
 
 ## Updating PLEIO
