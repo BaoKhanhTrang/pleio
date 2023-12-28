@@ -11,6 +11,11 @@ git clone https://github.com/cuelee/pleio.git
 cd pleio
 ```
 
+Then link ldsc into pleio diretory
+```
+ln -s ~/ldsc ./
+```
+
 In order to run `pleio`, the following python dependencies must be installed in your system.
 
 - python >= 3.7.4
@@ -18,6 +23,10 @@ In order to run `pleio`, the following python dependencies must be installed in 
 - numpy
 - scipy
 
+Let's create a conda environment for pleio
+```
+conda create -n "pleio" python=3.7.4 pandas=1.2.3 numpy=1.19.5 scipy=1.7.3
+```
 
 Once the above has completed, you can run the following command:
 
